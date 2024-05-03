@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/video.css">
+    <link rel="stylesheet" href="./styles/sidebar.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Youtube</title>
+    <link rel="icon" href="./assests/images/apple-touch-icon.png" class="title-pic">
+</head>
+
+<body>
+    <header class="header">
+        <div class="left-section">
+            <img class="hamburger" src="./assests/icons/hamburger.svg" alt="">
+            <img class="youtube-logo" src="./assests/icons/youtube-logo.svg" alt="">
+        </div>
+        <div class="middle-section">
+            <input class ="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="./assests/icons/search-bar.svg" alt="" >
+                <div class="tooltip">Search</div>
+            </button>
+            
+            <button class="mic-button">
+                <img class = "mic-icon" src="./assests/icons/mic.svg" alt="" >
+                    <div class="tooltip">Search with voice</div>
+            </button>
+        </div>
+        
+        
+        <div class="right-section">
+            <div class="create-video-container">
+                <img src="./assests/icons/create-video.svg" alt="" class="create-video">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="YouTube-Apps-container">
+                <img src="./assests/icons/yt-apps.svg" alt="" class="more">
+                <div class="tooltip">YouTube Apps</div>
+            </div>
+            <div class="notification-icon">
+                <img src="./assests/icons/notification-icon.svg" alt="" class="notification">                
+                <div class="notification-number">3</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <img src="./assests/images/profile-pic.webp" alt="" class="user-pic">
+        </div>
+    </header>
+
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img src="./assests/icons/home.svg" alt="" >
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="./assests/icons/explore.svg" alt="" >
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="./assests/icons/subscriptions.svg" alt="" >
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="./assests/icons/originals.svg" alt="" >
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="./assests/icons/youtube-music.svg" alt="" >
+            <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="./assests/icons/library.svg" alt="" >
+            <div>Library</div>
+        </div>
+    </nav>
+    
+    <main>
+        <section class="video-grid">
+            
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=VgDytOsG6Xo" target="">
+                        <img src="./assests/images/hackathon.webp" alt="" class="thumbnail">
+                    </a>
+                    <div class="video-time">
+                        7:52
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@stephranaway">
+                            <img class="profile-picture" src="./assests/images/images/hackathon-profile.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title"> My First Hackathon!</p>
+                        <a href="https://www.youtube.com/@stephranaway" >
+                            <p class="video-author">Steph Ran</p>
+                        </a>
+                        <p class="video-status">171k views &#183; 3 weeks ago</p>
+                    </div>
+                </div>
+            </div>
+      
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=p9d3-8dmnUk">
+                        <img src="./assests/images/pixies.webp" alt="" class="thumbnail">
+                    </a>
+                    <div class="video-time">
+                        4:50
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@sekuumut">
+                            <img class="profile-picture" src="./assests/images/pixies-profile.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Pixies - Where is My Mind(Slowed and Reverb)</p>
+                        <a href="https://www.youtube.com/@sekuumut">
+                            <p class="video-author">Umut Seku</p>
+                        </a>
+                        <p class="video-status">1.9M views &#183; 1 year ago </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=nAWUdDveRYw">
+                        <img src="./assests/images/djo.webp" alt="" class="thumbnail">
+                    </a>
+                    <div class="video-time">
+                        2:38
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@pepsimemories">
+                            <img class="profile-picture" src="./assests/images/djo-profile.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Djo - End of Beginning</p>
+                        <a href="https://www.youtube.com/@pepsimemories">
+                            <p class="video-author">phantasm</p>
+                        </a>
+                        <p class="video-status">558K views &#183; 2 months ago</p>
+                    </div>
+                </div>
+            </div>
+             
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+                        <img src="./assests/images/math.webp" alt="" class="thumbnail">
+                    </a>
+                    <div class="video-time">
+                        22:09
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@veritasium">
+                            <img class="profile-picture" src="./assests/images/math-profile.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+                        <a href="https://www.youtube.com/@veritasium">
+                            <p class="video-author">Veritasium</p>
+                        </a>
+                        <p class="video-status">18M views &#183; 4 months ago</p>
+                    </div>
+                </div>
+            </div>   
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+                        <img src="./assests/images/algorithm.webp" alt="" class="thumbnail">
+                    </a>
+                    <div class="video-time">
+                        11:16
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@CSDojo">
+                            <img class="profile-picture" src="./assests/images/algorithm-profile.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+                        <a href="https://www.youtube.com/@CSDojo">
+                            <p class="video-author">CS Dojo</p>
+                        </a>
+                        <p class="video-status">519k views &#183; 5 years ago</p>
+                    </div>
+                </div>
+            </div>
+               
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=-rnZBtC0fxI">
+                        <img src="./assests/images/love.webp" alt="" class="thumbnail">
+                    </a>
+                    <div class="video-time">
+                        3:33
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@mikeybrockmann">
+                            <img class="profile-picture" src="./assests/images/love-profile.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">When You're Hopelessly in Love With Your Female Friend</p>
+                        <a href="https://www.youtube.com/@mikeybrockmann">
+                            <p class="video-author">MIKEY WYATT</p>
+                        </a>
+                        <p class="video-status">398k, views &#183; 3 months ago</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                        <img src="./assests/images/sundar.webp" alt="" class="thumbnail">
+                    </a>
+                    <div class="video-time">
+                        14:20
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@mkbhd"><img class="profile-picture" src="./assests/images/sundar-profile.jpeg" alt=""></a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                        <a href="https://www.youtube.com/@mkbhd">
+                            <p class="video-author">Marques Brownlee</p>
+                        </a>
+                        <p class="video-status">3.4M views &#183; 6 months ago</p>
+                    </div>
+                </div>
+            </div>            
+            
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+                        <img src="./assests/images/laugh.webp" alt="" class="thumbnail">
+                    </a>
+                    <div class="video-time">
+                        8:22
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="channel-picture">
+                    <a href="https://www.youtube.com/@markiplier">
+                        <img class="profile-picture" src="./assests/images/laugh-profile.jpeg" alt="">
+                    </a>     
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Try Not To Laugh Challenge #9</p>
+                        <a href="https://www.youtube.com/@markiplier">
+                            <p class="video-author">Markiplier</p>
+                        </a>
+                        <p class="video-status">19M views &#183; 4 years ago </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=K0bmZgaKK0Y">
+                        <img src="./assests/images/briyani.webp" alt="" class="thumbnail">
+                    </a>
+                    <div class="video-time">
+                        13:51
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@irfansview1">
+                            <img class="profile-picture" src="./assests/images/briyani-profile.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">₹50 vs ₹2000 பிரியாணி Gopi & Sudhakar - Wortha Food Series - Irfan's View</p>
+                        <a href="https://www.youtube.com/@irfansview1">
+                            <p class="video-author">Irfan's View</p>
+                        </a>
+                        <p class="video-status">1.2M views &#183; 3 days ago</p>
+                    </div>
+                </div>
+            </div>
+                      
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=2nP3ElUtFDU">
+                        <img src="./assests/images/moonknight.webp" alt="" class="thumbnail">
+                    </a>
+                    <div class="video-time">
+                        3:18
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@Iknewit_25">
+                        <img class="profile-picture" src="./assests/images/moonknight-account.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">[Moonknight] - A man without love</p>
+                        <a href="https://www.youtube.com/@Iknewit_25">
+                          <p class="video-author">I knew it channel</p>
+                        </a>
+                        <p class="video-status">3.1M views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+                     
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc">
+                        <img src="./assests/images/course.jpeg" alt="" class="thumbnail">
+                    </a>
+                    <div class="video-time">
+                        6:31:24
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@SuperSimpleDev">
+                            <img class="profile-picture" src="./assests/images/course-profile.jpg" alt="">
+                        </a>
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">HTML &#38; CSS Full Course-Beginner to Pro<p>
+                        <a href="https://www.youtube.com/@SuperSimpleDev">
+                            <p class="video-author">SUperSimpleDev</p>
+                        </a>
+                        <p class="video-status">9.6M views &#183; 2 years ago</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+                        <img src="./assests/images/mrbeast.webp" alt="" class="thumbnail">
+                    </a>
+                    <div class="video-time">
+                        14 : 20
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/@MrBeast">
+                            <img class="profile-picture"
+                                src="./assests/images/mrbeast-profile.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Anything You Can Fit In The Circle I’ll Pay For</p>
+                        <a href="https://www.youtube.com/@MrBeast">
+                            <p class="video-author">MrBeast</p>
+                        </a>
+                        <p class="video-status">141M views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>   
