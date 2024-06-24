@@ -6,5 +6,5 @@ The Local - YouTube project aims to replicate the functionalities of the popular
 
 ## Authors
 
-- [@kitten04](https://github.com/kitten04)
+- [@njagan04](https://github.com/njagan04)
 
